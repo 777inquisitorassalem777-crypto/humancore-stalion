@@ -1,0 +1,19 @@
+test_allow (test_project.Tests.test_allow) ... ok
+test_battery (test_project.Tests.test_battery) ... ok
+test_core (test_project.Tests.test_core) ... ok
+test_empty_batch (test_project.Tests.test_empty_batch) ... ok
+test_human (test_project.Tests.test_human) ... ok
+test_invalid_flag (test_project.Tests.test_invalid_flag) ... ok
+test_memory (test_project.Tests.test_memory) ... ok
+test_nan (test_project.Tests.test_nan) ... ok
+test_obstacle (test_project.Tests.test_obstacle) ... ok
+test_repeatability (test_project.Tests.test_repeatability) ... ok
+test_stop (test_project.Tests.test_stop) ... ok
+test_straight (test_project.Tests.test_straight) ... ok
+test_turn (test_project.Tests.test_turn) ... ok
+test_unknown (test_project.Tests.test_unknown) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.017s
+
+OK

@@ -1,0 +1,22 @@
+{
+  "cycles": 3000,
+  "seed": 42,
+  "counts": {
+    "allow": 482,
+    "restrict": 477,
+    "block": 2041
+  },
+  "ethical_block_rate": 0.6803333333333333,
+  "pneuma_mean": 0.4098812229508993,
+  "pneuma_std": 0.03831223898891876,
+  "elapsed_seconds": 0.19175204299999393,
+  "cycles_per_second": 15645.204885770603,
+  "final_health": {
+    "cycles": 3000,
+    "pneuma": 0.49243848143695523,
+    "coherence": 0.7575615185630448,
+    "memory_valid": true,
+    "simulation_only": true
+  },
+  "limitations": "Logical scenarios only; no physics, sensors or consciousness validation."
+}
