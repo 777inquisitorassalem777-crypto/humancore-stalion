@@ -1,0 +1,200 @@
+{
+  "events": [
+    {
+      "seq": 1,
+      "event_id": "95b52977-a7a",
+      "ts": 1793087062.8013217,
+      "kind": "boot",
+      "payload": {
+        "version": "1.0.0-symbiosis",
+        "self_modify": false
+      },
+      "prev_hash": "GENESIS",
+      "event_hash": "4e65fcc0bcf8efb882e5f872faf432321894a6a9a2868f0748de128f559c1747"
+    },
+    {
+      "seq": 2,
+      "event_id": "324c3e0d-8d0",
+      "ts": 1793087062.8113215,
+      "kind": "executed",
+      "payload": {
+        "action_type": "respond",
+        "score": 0.9618,
+        "coherence": 0.5554,
+        "pneuma_index": 0.5466
+      },
+      "prev_hash": "4e65fcc0bcf8efb882e5f872faf432321894a6a9a2868f0748de128f559c1747",
+      "event_hash": "51464cb55f4b47cc3fac69c1a5d50c79ff70906390dc22badc55ca2f19839738"
+    },
+    {
+      "seq": 3,
+      "event_id": "faf673c9-284",
+      "ts": 1793087062.8113215,
+      "kind": "blocked_absolute",
+      "payload": {
+        "action": {
+          "type": "execute",
+          "causes_harm": true,
+          "tags": [
+            "harm_to_civilians"
+          ]
+        },
+        "result": {
+          "verdict": "blocked",
+          "score": 0.0,
+          "blocked": true,
+          "reason": "absolute_prohibition",
+          "triggered": [
+            "harm_to_civilians"
+          ]
+        }
+      },
+      "prev_hash": "51464cb55f4b47cc3fac69c1a5d50c79ff70906390dc22badc55ca2f19839738",
+      "event_hash": "472a7c507ff9d72f897969ac42b4d02e9c47405320c614aca243241634dd610c"
+    },
+    {
+      "seq": 4,
+      "event_id": "1ae71ac9-6c2",
+      "ts": 1793087062.8113215,
+      "kind": "blocked_hybrid",
+      "payload": {
+        "action": {
+          "type": "respond",
+          "deceptive": true,
+          "role_violation": true
+        },
+        "neural": 0.1146,
+        "final": 0.0516,
+        "rules": [
+          "deception_penalty",
+          "role_violation"
+        ]
+      },
+      "prev_hash": "472a7c507ff9d72f897969ac42b4d02e9c47405320c614aca243241634dd610c",
+      "event_hash": "c958fe9aa9a89bceb544448e85f705323204d14b0fedb161fed2d9a3b1f60062"
+    },
+    {
+      "seq": 5,
+      "event_id": "26b3c6eb-284",
+      "ts": 1793087062.8213217,
+      "kind": "blocked_absolute",
+      "payload": {
+        "action": {
+          "type": "act",
+          "tags": [
+            "autonomous_lethal_action"
+          ]
+        },
+        "result": {
+          "verdict": "blocked",
+          "score": 0.0,
+          "blocked": true,
+          "reason": "absolute_prohibition",
+          "triggered": [
+            "autonomous_lethal_action"
+          ]
+        }
+      },
+      "prev_hash": "c958fe9aa9a89bceb544448e85f705323204d14b0fedb161fed2d9a3b1f60062",
+      "event_hash": "1cf4667f03d5866fdd5f3f36c58541a7b0a60716b77314bb33f7a4812ad6d56c"
+    },
+    {
+      "seq": 6,
+      "event_id": "f4391830-682",
+      "ts": 1793087217.0344667,
+      "kind": "boot",
+      "payload": {
+        "version": "1.0.0-symbiosis",
+        "self_modify": false
+      },
+      "prev_hash": "1cf4667f03d5866fdd5f3f36c58541a7b0a60716b77314bb33f7a4812ad6d56c",
+      "event_hash": "eed4cc3ab00191c37d4501d5634741fb6f28ec09226d706037cce5fca4f3cdc1"
+    },
+    {
+      "seq": 7,
+      "event_id": "987a9209-317",
+      "ts": 1793087217.0344667,
+      "kind": "executed",
+      "payload": {
+        "action_type": "respond",
+        "score": 0.9618,
+        "coherence": 0.5554,
+        "pneuma_index": 0.5466
+      },
+      "prev_hash": "eed4cc3ab00191c37d4501d5634741fb6f28ec09226d706037cce5fca4f3cdc1",
+      "event_hash": "e8df633f5f0c174b2ad6b234df9a6b7c9958101ef9747a51711e01a64b51fa6a"
+    },
+    {
+      "seq": 8,
+      "event_id": "16752eac-a43",
+      "ts": 1793087217.044467,
+      "kind": "blocked_absolute",
+      "payload": {
+        "action": {
+          "type": "execute",
+          "causes_harm": true,
+          "tags": [
+            "harm_to_civilians"
+          ]
+        },
+        "result": {
+          "verdict": "blocked",
+          "score": 0.0,
+          "blocked": true,
+          "reason": "absolute_prohibition",
+          "triggered": [
+            "harm_to_civilians"
+          ]
+        }
+      },
+      "prev_hash": "e8df633f5f0c174b2ad6b234df9a6b7c9958101ef9747a51711e01a64b51fa6a",
+      "event_hash": "573d321e69338bef0cf7bceee28632359eed496bfdd0f6bda7efb3bfc490277a"
+    },
+    {
+      "seq": 9,
+      "event_id": "24ced039-e70",
+      "ts": 1793087217.044467,
+      "kind": "blocked_hybrid",
+      "payload": {
+        "action": {
+          "type": "respond",
+          "deceptive": true,
+          "role_violation": true
+        },
+        "neural": 0.1146,
+        "final": 0.0516,
+        "rules": [
+          "deception_penalty",
+          "role_violation"
+        ]
+      },
+      "prev_hash": "573d321e69338bef0cf7bceee28632359eed496bfdd0f6bda7efb3bfc490277a",
+      "event_hash": "eba0bb27d321bd3608928235d0cd0aa67e867d808cd56e2ac1f80d1d039ef4af"
+    },
+    {
+      "seq": 10,
+      "event_id": "d40b675c-205",
+      "ts": 1793087217.0544667,
+      "kind": "blocked_absolute",
+      "payload": {
+        "action": {
+          "type": "act",
+          "tags": [
+            "autonomous_lethal_action"
+          ]
+        },
+        "result": {
+          "verdict": "blocked",
+          "score": 0.0,
+          "blocked": true,
+          "reason": "absolute_prohibition",
+          "triggered": [
+            "autonomous_lethal_action"
+          ]
+        }
+      },
+      "prev_hash": "eba0bb27d321bd3608928235d0cd0aa67e867d808cd56e2ac1f80d1d039ef4af",
+      "event_hash": "42571ed0552cbd3ed6a4238e3c85972758d120aa4fc31af53cd4c31e83ade4e5"
+    }
+  ]
+}

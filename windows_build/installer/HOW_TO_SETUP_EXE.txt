@@ -1,0 +1,5 @@
+To create Setup.exe on Windows:
+1. Install Python 3.10+ and Inno Setup (https://jrsoftware.org/isinfo.php)
+2. Optional: pyinstaller --onefile --name PnevmaSymbiosis run.py
+3. Compile a simple Inno script pointing to this folder
+Native setup.exe cannot be produced on Linux CI without Wine+Inno.
