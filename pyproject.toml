@@ -1,15 +1,22 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "humancore-stalion"
+name = "ccos-omega"
 version = "0.1.0"
-description = "Simulation-only research core with explicit policy checks"
+description = "CCOS-Ω research core for persistent narrative agents"
 requires-python = ">=3.10"
+dependencies = ["fastapi>=0.110", "uvicorn[standard]>=0.27", "pydantic>=2.6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "httpx>=0.27"]
 
 [project.scripts]
-humancore = "humancore.cli:main"
+ccos = "ccos.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,7 @@
+services:
+  ccos:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CCOS_LOG_LEVEL: INFO
